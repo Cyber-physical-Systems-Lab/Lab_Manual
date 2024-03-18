@@ -122,11 +122,8 @@ Leverage GitHub's issue tracker to manage tasks, bugs, and feature requests effe
 Integrate CI/CD pipelines into your repository to automate testing, building, and deployment processes. Services like GitHub Actions, Travis CI, or Jenkins allow you to define workflows triggered by events such as code pushes or PRs. Ensure that your CI/CD configuration is stored in version control and documented for transparency and reproducibility.
 
 Example GitHub Actions workflow for Python project:
-```
-name: CI
-
+```name: CI
 on: [push]
-
 jobs:
   build:
     runs-on: ubuntu-latest
