@@ -1,7 +1,8 @@
-## Welcome to the Cyber-Physical Systems Lab at Uppsala University
+# Manual of Cyber-physical Systems Lab at Uppsala University
+## Overview and available equipments
 
-This manual serves as a guide to understanding the operations, equipment, and protocols within the lab. The Cyber-Physical Lab is dedicated to the exploration, development, and experimentation of systems that integrate computational and physical elements. Our mission is to provide students and researchers with a conducive environment to explore the interdisciplinary field of cyber-physical systems.
-![alt text](https://github.com/Cyber-physical-Systems-Lab/Lab_Manual/blob/main/Figures/MainPhoto.jpeg?raw=true)
+Welcome to the Cyber-Physical Systems Lab at Uppsala University. This manual serves as a guide to understanding the operations, equipment, and protocols within the lab. The Cyber-Physical Lab is dedicated to the exploration, development, and experimentation of systems that integrate computational and physical elements. Our mission is to provide students and researchers with a conducive environment to explore the interdisciplinary field of cyber-physical systems.
+![Lab Photo](https://github.com/Cyber-physical-Systems-Lab/Lab_Manual/blob/main/Figures/MainPhoto.jpeg?raw=true)
 **Equipment except robots in this lab (up to \today):**
 - Workstation (HP Z2G9 I7-13900K + A4000 ~~wireless adapter~~)
 - TP-Link AX73 Router (Official manual [here](https://www.tp-link.com/se/support/download/archer-ax73/v2/))
@@ -14,7 +15,7 @@ As a cyber-physical systems lab, we should have some robots to play with, and im
 
 ### Lab Safety
 
-Before we dive into the exciting world of robotics and cyber-physical systems, we must ensure that every lab member is equipped with the knowledge and respect for safety protocols that govern our operations. This commitment to maintaining a secure environment is not just about adhering to rules but about fostering a culture of mindfulness and responsibility towards oneself and others in the lab.
+Before we dive into the exciting world of robotics and cyber-physical systems, we must ensure that every lab member is equipped with the knowledge and respect for safety protocols that govern our operations. This commitment to maintaining a secure environment is not just about adhering to rules but about fostering a culture of mindfulness and responsibility towards oneself and others in the lab. 
 
 **Under no circumstances should any robotic operation be manually interrupted by hand**. Direct physical interaction with moving parts or operational machinery presents a significant risk of injury and can damage the equipment. If there is a need to halt a robot's operation, the first course of action should always be an attempt to interrupt the process via command through the controlling software. If the software fails to respond or an immediate stop is necessary, the next step is to safely power off the equipment. Only after these measures are taken should new operations be initiated.
 
@@ -35,6 +36,24 @@ Before we dive into the exciting world of robotics and cyber-physical systems, w
 - AI kit 2023 of myCobot from Elephant Robotics (Official manual [here](https://docs.elephantrobotics.com/docs/gitbook-en/2-serialproduct/2.9-AIkit2023en/introduce.html))
 - Gripper RobotiQ 2F85 from Dobot (Official manual [here](https://robotiq.com/products/2f85-140-adaptive-robot-gripper?ref=nav_product_new_button))
 
+If you want to connect to the robot (except Nova 5), you could try VNC by typing the IP address assigned by the router to have graphical interaction to the ubuntu installed on the robot. There are two ways to get the assigned IP address. This is what you can achieve, as shown in the figure below.
+
+![Work Flow](https://github.com/Cyber-physical-Systems-Lab/Lab_Manual/blob/main/Figures/work_flow.png)
+
+* Check the IP address from the robot by typing 'ip addr' in the Terminal of robot. See the figure below.
+![IP Address of Robot](https://github.com/Cyber-physical-Systems-Lab/Lab_Manual/blob/main/Figures/ip_robot.png)
+
+* Check the IP address from the configuration page of routers. The default address for TP-Link router is '192.168.0.1'. See the figure below.
+![IP Address of Robot](https://github.com/Cyber-physical-Systems-Lab/Lab_Manual/blob/main/Figures/ip_router.png)
+
+After obtaining the IP address of the robot, input it into VNC to establish remote access. This allows you to work on a more powerful computer than the Raspberry Pi, where the firmware is executed.
+
+
+#### Dobot Nova 5
+The procedure for connecting to the large robotic arm differs slightly, as it utilizes industry-standard software developed by Dobot, known as DobotStudio Pro. Before using the robot, you need to connect to the Wi-Fi network that the robot broadcast itself, and then connect to '192.168.5.1' to have full features that software can do. Additionally, there is an alternative address, '192.168.1.6', designated for data exchange. Connecting to this address allows the robot to execute commands, but the visual animation of the arm will be disabled.
+![Dobot Arm GUI](https://github.com/Cyber-physical-Systems-Lab/Lab_Manual/blob/main/Figures/dobot_gui.png)
+
 ## Routers
 
-We have two routers in the lab. One
+We have two routers in the lab. 
+
