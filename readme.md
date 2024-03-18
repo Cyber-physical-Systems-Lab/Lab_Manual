@@ -55,5 +55,12 @@ The procedure for connecting to the large robotic arm differs slightly, as it ut
 
 ## Routers
 
-We have two routers in the lab. 
+We have two routers in the lab.
+
+| TP-Link AX73 Router | TP-Link TL-WR841N |
+|---------------------|-------------------|
+| Wi-Fi network: 'Robot\_All' | Wi-Fi network: 'Robot\_Net' |
+| Password: CPS104264 | Password: 12345678 |
+| Configuration page: 192.168.0.1 | Configuration page: 192.168.0.1 |
+| Admin password: CPS104264 | Admin password: 123456 |
 
