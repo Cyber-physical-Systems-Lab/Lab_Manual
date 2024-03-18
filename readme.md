@@ -1,4 +1,10 @@
 # Manual of Cyber-physical Systems Lab at Uppsala University
+# Table of Contents
+1. [Introduction](#overview-and-available-equipments)
+2. [Robots](#robots)
+2. [Routers](#routers)
+3. [Organizing the GitHub Repository or Project](#organizing-the-github-repository-or-project)
+
 ## Overview and available equipments
 
 Welcome to the Cyber-Physical Systems Lab at Uppsala University. This manual serves as a guide to understanding the operations, equipment, and protocols within the lab. The Cyber-Physical Lab is dedicated to the exploration, development, and experimentation of systems that integrate computational and physical elements. Our mission is to provide students and researchers with a conducive environment to explore the interdisciplinary field of cyber-physical systems.
@@ -27,7 +33,7 @@ Before we dive into the exciting world of robotics and cyber-physical systems, w
 
 **Also take care of robots**. When working with robots, consider not only your safety but also the well-being of the robots. Abrupt shutdowns or erratic operational commands can lead to wear and tear or even permanent damage to sensitive components. Always shut down the robots gently and as per the recommended procedures when you are done or if you are leaving the lab, even for a short period. This practice extends the lifespan of the robots and maintains their readiness for future experiments.
 
-### Robots
+## Robots
 
 **Available Robots in the lab (up to \today):**
 - myCobot 280 Pi × 2 from Elephant Robotics (Official manual [here](https://docs.elephantrobotics.com/docs/gitbook-en/2-serialproduct/2.1-280/2.1.2-PI.html))
